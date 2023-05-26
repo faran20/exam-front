@@ -1,0 +1,41 @@
+<div class="slider-container">
+  <ngb-carousel #ngcarousel>
+    <ng-template ngbSlide id="one">
+      <div class="picsum-img-wrapper">
+        <img src="../../../assets/home/slide-1_2048x.jpg" alt="Slide 1">
+      </div>
+    </ng-template>
+    <ng-template ngbSlide id="two">
+      <div class="picsum-img-wrapper">
+        <img src="../../../assets/home/slide-2_2048x.jpg" alt="Slide 2">
+      </div>
+    </ng-template>
+    <ng-template ngbSlide id="three">
+      <div class="picsum-img-wrapper">
+        <img src="../../../assets/home/slide-1_2048x.jpg" alt="Slide 3">
+      </div>
+    </ng-template>
+    <ng-template ngbSlide id="four">
+      <div class="picsum-img-wrapper">
+        <img src="../../../assets/home/slide-2_2048x.jpg" alt="Slide 4">
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  <div class="slider-text">
+    <h1>Best Bags</h1>
+    <h1>2017</h1>
+  </div>
+</div>
+
+<br/>
+<br/>
+
+<div class="tile-section">
+  <div class="tile" *ngFor="let tile of tiles">
+    <img [src]="tile.imageUrl" (mouseover)="onTileHover($event)" (mouseleave)="onTileLeave($event)">
+  </div>
+</div>
+
+<br/>
+<br/>
+

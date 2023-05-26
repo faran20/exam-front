@@ -1,0 +1,50 @@
+/* Footer Styles */
+
+.footer {
+    padding: 40px 0;
+}
+
+.footer h3,
+.footer h5 {
+    color: #000;
+    font-weight: bold;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.small-map {
+    height: 150px;
+    background-color: #000;
+}
+
+/* Copyright Section Styles */
+
+.footer hr {
+    border-color: #000;
+}
+
+.footer p {
+    color: #000;   
+    margin-bottom: 0;
+    font-size: 14px;
+}

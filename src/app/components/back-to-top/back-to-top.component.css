@@ -1,0 +1,50 @@
+/* *******************************************SITETHEMESTYLE**************************************************/
+#back-top {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    z-index: 99;
+    text-align: center;
+}
+
+#back-top a {
+    background: none repeat scroll 0% 0% transparent;
+    opacity: 1;
+    background-color: #fcc030;
+    width: 45px;
+    line-height: 45px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 45px;
+    display: inline-block;
+    font-size: 12px;
+    border: 1px solid #fcc030;
+    position: relative;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+#back-top a::before {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: "FontAwesome";
+    font-size: 0;
+    content: "\f106";
+    color: #fcc030;
+    line-height: 40px;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+#back-top:hover a {
+    background: none repeat scroll 0% 0% #fcc030;
+}
+
+#back-top:hover a::before {
+    color: white;
+}
