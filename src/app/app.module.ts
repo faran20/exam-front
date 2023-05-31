@@ -19,6 +19,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import {MatCardModule} from '@angular/material/card';
 
 
 import { FormsModule } from '@angular/forms';
@@ -40,12 +41,12 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatInputModule,
-    MatFormFieldModule,
     FormsModule,
     MatSnackBarModule,
     HttpClientModule,
     NgbCarouselModule,
+    MatInputModule,
+    MatFormFieldModule,
     NgbModule
   ],
   providers: [],
